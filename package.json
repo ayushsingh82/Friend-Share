@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ETHlabs/coins-sdk": "^0.2.3",
+    "@zoralabs/coins-sdk": "^0.2.9",
     "@openzeppelin/contracts": "^5.0.0",
     "@rainbow-me/rainbowkit": "^2.2.8",
     "@tanstack/react-query": "^5.81.2",

@@ -1,13 +1,13 @@
 import { createPublicClient, http } from 'viem';
-import { bscTestnet } from 'wagmi/chains';
+import { etherlinkTestnet } from 'wagmi/chains';
 import { createWalletClient, custom } from 'viem';
 
 export const publicClient = createPublicClient({
-  chain: bscTestnet,
+  chain: etherlinkTestnet,
   transport: http(),
 });
 
 export const walletClient = createWalletClient({
-  chain: bscTestnet,
+  chain: etherlinkTestnet,
   transport: custom(window.ethereum),
 }); 

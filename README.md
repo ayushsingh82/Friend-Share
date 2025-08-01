@@ -51,9 +51,9 @@ Friend.Share is a revolutionary dApp that combines blockchain technology, artifi
 
 ### Testnet Explorer Link
 
-- https://testnet.bscscan.com/address/0x5CB5cF00d90c1894E10921845a2A8C07E7d6FF97
+- Event contract - https://testnet.explorer.etherlink.com/address/0x61edDE0E4B97D878C14F5f5706309d4572550Afa
 
-- https://testnet.bscscan.com/address/0xbC0B8C43E3F1a425D8916f3F86b7d108BC954dcd
+- Group contract - https://testnet.bscscan.com/address/0xbC0B8C43E3F1a425D8916f3F86b7d108BC954dcd
 
 ## 🚀 Getting Started
 
