@@ -138,7 +138,7 @@ const GroupPage = () => {
       const combinedGroups = names.map((name, index) => ({
         name,
         description: descriptions[index],
-        totalAmount: Number(totalAmounts[index]) / 1e18, // Convert to BNB here
+        totalAmount: Number(totalAmounts[index]) / 1e18, // Convert to XTZ here
         recipients: allRecipients[index] || [],
         creator: creators[index] || 'Unknown',
         groupIndex: index
@@ -178,7 +178,7 @@ const GroupPage = () => {
       
       // Ensure totalAmount is properly converted from wei to BNB
       const totalAmountInBNB = Number(groupDetails[2]) / 1e18;
-      console.log('Final total amount in BNB:', totalAmountInBNB);
+      console.log('Final total amount in XTZ:', totalAmountInBNB);
       
       const detailedGroup = {
         ...group,
@@ -471,7 +471,7 @@ const GroupPage = () => {
               {/* Shared Amount */}
               <div>
                 <label className="block text-sm font-bold text-green-700 mb-2 uppercase tracking-wide">
-                  Amount (BNB) *
+                  Amount (XTZ) *
                 </label>
                 <input
                   type="number"
@@ -695,7 +695,7 @@ const GroupPage = () => {
                           : Number(selectedGroup.totalAmount).toFixed(2)
                         )
                       : '0.00'
-                    } BNB
+                    } XTZ
                   </span>
                 </div>
               </div>

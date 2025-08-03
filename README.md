@@ -53,7 +53,8 @@ Friend.Share is a revolutionary dApp that combines blockchain technology, artifi
 
 - Event contract - https://testnet.explorer.etherlink.com/address/0x61edDE0E4B97D878C14F5f5706309d4572550Afa
 
-- Group contract - https://testnet.bscscan.com/address/0xbC0B8C43E3F1a425D8916f3F86b7d108BC954dcd
+- Group contract - 
+https://testnet.explorer.etherlink.com/tx/0xbc10697670939204856091e2dff82856f4d6a27712e9b0776e3822692ab418b3
 
 ## 🚀 Getting Started
 
@@ -105,7 +106,7 @@ npm start
 4. Fill in group details:
    - Group name
    - Group description
-   - Total amount (in BNB)
+   - Total amount (in XTZ)
    - Add recipient wallet addresses
 5. Click "CREATE GROUP" to deploy on-chain
 
